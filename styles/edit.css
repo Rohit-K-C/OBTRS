@@ -1,0 +1,79 @@
+body {
+	background-size: 100%;
+	font-family: 'Roboto', sans-serif;
+    background-color: aqua;
+}
+
+.main-div{
+    margin-left: 400px;
+	max-width: 400px;
+    max-height: 500px;
+	border-radius: 30px;
+	margin: auto;
+	background-color: rgb(0, 50, 67); 
+    padding: 40px;
+	color: white;
+	margin-bottom: 50px;
+}
+
+input[type=text], input[type=password], input[type=date], input[type=time], input[type=float]{
+	width: 400px;
+	box-sizing: border-box;
+	padding: 12px 5px;
+	background: rgba(0,0,0,0.10);
+	outline: none;
+	border: none;
+	border-bottom: 1px dotted white;
+	color: white;
+	border-radius: 10px;
+	margin: 5px;
+	font-weight: bold;
+}
+input[type=submit]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 0;
+	margin-top: 30px;
+	outline: none;
+	border: none;
+	background-color: rgb(0,30,100);
+	opacity: 0.8;
+	border-radius: 20px;
+	font-size: 20px;
+	color: white;
+}
+input[type=submit]:hover{
+	background-color: rgb(0, 255, 255);
+    color: black;
+	opacity: 0.8;
+}
+
+.main-div h3{
+	text-align: center;
+	font-size: 30px;
+}
+
+#travelling-from{
+    background-color: rgba(0,0,0,0.10);
+    color: white;
+}
+
+#travelling-to{
+    background-color: rgba(0,0,0,0.10);
+    color: white;
+}
+.dis{
+	display: flex;
+	flex-direction: row;
+	
+}
+#lblAvailSeats{
+
+	margin-left: 20px;
+	margin-right: 60px;
+	font-size: 20px;
+}
+#lblBookedSeats{
+	
+	font-size: 20px;
+}

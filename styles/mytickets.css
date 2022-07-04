@@ -1,0 +1,28 @@
+table{
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    border-spacing: 40px;
+    margin-left: 230px;
+    margin-top: 80px;
+}
+
+table th{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+table td{
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: green;
+    border-radius: 50px;
+    color: white;
+}
