@@ -56,8 +56,8 @@
         var tFrom = document.getElementById("travelling-from").value;
         var tTo = document.getElementById("travelling-to").value;
         var date = document.getElementById("date_picker").value;
-
-        if(busNum == "" || tFrom == "" || tTo == "" || date == "" || time == ""){
+        var price = document.getElementById("price").value;
+        if(busNum == "" || tFrom == "" || tTo == "" || date == "" || time == "" || price == ""){
             alert("All fields are required!");
             return false;
         }
